@@ -15,6 +15,7 @@ The NLTK module's pre-trained Sentiment Intensity Analyzer was used to produce a
 
 **Accuracy: 0.5960**
 **Classification Report:**
+
               precision    recall  f1-score   support
 
        False       0.00      0.00      0.00       467
