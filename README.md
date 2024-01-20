@@ -14,6 +14,7 @@ Data cleaning simply involved engineering the feature that we will be trying to 
 The NLTK module's pre-trained Sentiment Intensity Analyzer was used to produce a positive, neutral, and negative sentiment score for each headline. These sentiment scores were then used as features to train and test a Logistic Regression classifier model that predicts whether stock market price increases or decreases in the future.
 
 **Accuracy: 0.5960**
+
 **Classification Report:**
 
               precision    recall  f1-score   support
