@@ -32,3 +32,5 @@ I concatenated all article headlines of the same date together so that each date
 Unfortunately, there was no improvement between the first model and this LSTM model. The reasons for this lack of effectiveness will be discussed in the below section.
 
 ## Areas of Improvement
+The largest area of improvement in this project for the future is the quality and quantity of data. The headlines I collected were not enough to accurately capture what was happening in the world and economy because I only collected from two sources, The New York Times and The Wall Street Journal. Additionally, a significant portion of these headlines had nothing to do with important economic or world events. In the future, I would scrape headlines from as many different news sources as possible to increase the number of relevant headlines to train and predict with.
+Another possible area of improvement is in hyperparameter selection, especially for the LSTM model. I did this to an extent by experimenting with different epochs for training the LSTM, but there are many more hyperparameters to tune such as the number of LSTM units, the number of dense layers, and sequence padding length.
